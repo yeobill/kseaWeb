@@ -1,0 +1,1 @@
+eventsdetail.js

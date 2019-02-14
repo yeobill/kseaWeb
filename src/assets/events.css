@@ -1,0 +1,272 @@
+
+#eventtitle{
+  /*background-color: black;*/
+  /*color:white;*/
+  /*border: 2px solid red; */
+  width:80vw;
+  /*height: 150px;*/
+  position: relative;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+  overflow:visible;
+  margin-bottom: 50px;
+}
+#eventstitleheader{
+  /*color: green;*/
+  /*border: 1px solid black;*/
+  position: relative;
+}
+.HeaderPic {
+    height: 70vh;
+    width: auto;
+    color:black;
+    background: black;
+}
+.cover {
+    width:100%;
+    height:70vh;
+    background-size: cover;
+    background-image: url("eventpage.jpg");
+    background-position: 50% 30%;
+}
+
+.images {
+    background-size: cover;
+    min-width:200px;
+    width:auto;
+    height: 100%;
+    max-height:70vh;
+    z-index: -1;
+}
+.EventsHeader {
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+    z-index: 10;
+    margin-top: 0px;
+    height: auto;
+    max-height: 150px;
+    width: 100%;
+    max-width: 800px;
+    background: white;
+    opacity:0.95;
+    vertical-align: middle;
+    min-height: 100px;
+    margin-bottom: 50px;
+}
+
+
+.eventRow {
+    height:wrap-content;
+    margin-bottom: 50px;
+}
+
+.upcomingEvents{
+    height:wrap-content;
+
+}
+
+.pastEvents{
+    margin-top: 100px;
+    height: wrap-content;
+
+}
+
+
+.loadMore {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 8em;
+  height: 2.25em;
+
+  padding: 0.5em 1em;
+  background-color: #fff;
+  border: 1px solid #ccc;
+
+  text-align: center;
+  color: #333;
+  white-space: nowrap;
+  line-height: 1.4;
+  font-size: 1em;
+  text-decoration: none;
+  transition: background 0.6s ease, color 0.6s ease;
+
+}
+
+.loadMore:hover {
+    transition: background 0.6s ease, color 0.6s ease;
+    color: white;
+    text-decoration: none;
+    background: #50A6C2;
+}
+
+#eachbox {
+  height: 300px;
+  background: white;
+  border: 1px solid white;
+  transition: all 0.5s ease;
+
+}
+
+textarea.form-control {
+  height: 100px;
+}
+
+.submitbutton {
+  display: block;
+  width: 100%;
+  height: 50px;
+}
+
+#picture {
+    width:100%;
+    height: 80%;
+    padding: 10px;
+
+}
+
+#eachbox:hover {
+    transition: all 0.5s ease;
+}
+
+
+#explanation {
+    width: 100%;
+    height: 30%;
+}
+
+#date{
+    font-size: 14px
+}
+
+#event{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#place{
+    font-size: 13px;
+}
+
+.text{
+    font-size: 15px;
+    padding-top: 30px;
+    width:100%;
+    height:100%;
+    margin-top: 30px;
+}
+
+#text:hover{
+
+}
+
+#nottext{
+    position: absolute;
+    width:100%;
+    opacity:1;
+    height:100%;
+    transition: all 0.5s ease;
+}
+
+#nottext:hover{
+    position: absolute;
+    width:100%;
+    opacity:0.7;
+    height:100%;
+    transition: all 0.5s ease;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.ehvrbox * {
+  box-sizing: border-box;
+}
+.ehvrbox {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.ehvrbox img {
+  max-width: 100%;
+}
+.ehvrbox .ehvrbox-layer_bottom {
+  display: block;
+}
+.ehvrbox .ehvrbox-layer_top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*width: 100%;
+  height: 100%;*/
+  margin: 0;
+  height:100%;
+  width:100%;
+  background: rgba(0,0,0,0);
+  border-radius: 5px 5px 0 0;
+  color: transparent;
+  /*padding: 15px;*/
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.ehvrbox:hover .ehvrbox-layer_top:hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*width: 100%;
+  height: 100%;*/
+  margin: 0;
+  height:100%;
+  width:100%;
+  background: rgba(255,255,255,1);
+  border-radius: 5px 5px 0 0;
+  color: black;
+  /*padding: 15px;*/
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.slick-slide .slick-active{
+    width:auto;
+}
+
+#button {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 28px;
+    border: 1px solid white;
+    background: transparent;
+    vertical-align: middle;
+    color: white;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+#button:hover {
+    background: white;
+    color:black;
+    transition: all 0.2s ease;
+}
+.createEvent{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+

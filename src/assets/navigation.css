@@ -1,0 +1,46 @@
+
+#thelogo {
+	color: black;
+	height: 40px;
+}
+
+#thelogo_default {
+	color: white;
+	height: 40px;
+}
+nav {
+    height: 100px;
+    opacity: 1;
+    background-color: white;
+}
+
+.navbarmain {
+    color: white;
+    height: 100px;
+    background:transparent;
+}
+
+.navitem {
+    display: inline;
+    padding-left: 30px;
+}
+
+.navbar-nav {
+    display: inline;
+}
+
+.Applogo .navbar-inverse .navbar-brand:hover{
+	color:black;
+}
+.Applogo_default .navbar-inverse .navbar-brand {
+	color:white;
+}
+.Applogo {
+	/*display: none;*/
+	/*margin-left: 40px;*/
+	/*color: white;*/
+	font-size: 10px;
+	max-width: 100px;
+	min-width: 30px;
+	margin-top: -5px;
+}

@@ -1,0 +1,301 @@
+/*윤선이가 스타일링한거*/
+.Members{
+  width: 100vw;
+  height:100vh;
+  background-color: #f6f6f6;
+}
+#groupphoto{
+  /*top:60px;*/
+  position:relative;
+  /*border: 1px solid blue;*/
+  background-color: grey;
+  width:100vw;
+
+  height: 70vh;
+  background-image: url("../assets/profile/group1.jpg");
+  background-position: 50% 30%;
+  /*background-attachment: fixed;*/
+  background-size: cover;
+  /*-webkit-filter: grayscale(10%);  /*Safari 6.0 - 9.0 */
+  /*filter: grayscale(10%);*/
+  /*background: rgba(0,0,0,0.1);*/
+  /*-webkit-filter: brightness(0.9);
+  filter: brightness(0.9);*/
+}
+#viewmembersbutton {
+  color:white;
+  z-index: 99;
+  height: 0px;
+  /*margin-top: 100px;*/
+  position: absolute;
+  margin:auto;
+  margin-top: 100px;
+  border: 2px solid white;
+
+  width:120px;
+  height:28px;
+  font-size: 16px;
+  text-align: center;
+}
+#memberscontent{
+  background-color: #f6f6f6;
+  /*background-color: red;*/
+  /*border: 2px solid green;*/
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+#memberstitleheader{
+  /*color: green;*/
+  /*border: 1px solid black;*/
+  position: relative;
+}
+#membertitle{
+  /*background-color: black;*/
+  /*color:white;*/
+  /*border: 2px solid red; */
+  width:80vw;
+  /*height: 150px;*/
+  position: relative;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+  overflow:visible;
+}
+.membersubtitle {
+  /*padding-left: 12px;*/
+  /*border: 2px solid purple;*/
+  /*width:100vw;*/
+  height: 80px;
+  position: relative;
+  text-align: left;
+  margin:auto;
+  width: 80vw;
+
+}
+#committeesort{
+
+  color:black;
+  /*border:1px solid black;*/
+  /*background-color: black;*/
+  position: relative;
+  bottom:0;
+  margin:auto;
+  width: 75vw;
+  margin-top: 30px;
+  /*margin-left:23px;*/
+  /*text-align: left;*/
+}
+
+.photocontainer{
+  background-color: #f6f6f6;
+  /*position:relative;*/
+
+  /*margin:auto;*/
+  /*border:3px solid red;*/
+  width: 80vw;
+  /*widows: 96vw;*/
+
+  /*margin-left: 50px;*/
+  margin:auto;
+  /*padding-left: 30px;*/
+  /*margin-top:30px;*/
+}
+#description{
+  /*border:1px solid black;*/
+  margin: 0;
+  padding: 0;
+}
+.detail-container {
+  padding-left: 0;
+}
+.smpicture-container {
+  /*padding-right: 0;*/
+  text-align: left;
+  float: none !important;
+}
+
+
+/* 오빠가 전에 해놓은거*/
+
+.height {
+  height: 14px !important;
+}
+.smpicture {
+  /*border-radius: 3px;*/
+  margin: 0;
+  height:380px;
+  width:280px;
+  /*height: 150px;*/
+  /*width: 130px;*/
+  position: relative;
+  /*padding-right:10px;*/
+  /*padding-bottom: 10px;*/
+  border-radius: 5px 5px 0 0;
+}
+.smpicture:hover{
+  /*background: blue;*/
+}
+
+.xlpicture {
+  height: 400px;
+  width: 300px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  vertical-align: middle;
+  display: block;
+}
+.name {
+  font-size: 18px;
+  /*text-align: center;*/
+  font-weight: bold;
+  /*font-family: 'Josefin Sans', sans-serif;*/
+  /*font-family: inherit;*/
+
+}
+.position {
+  font-size: 14px;
+  /*text-align: center;*/
+}
+.description {
+  font-size: 14px;
+  text-align: center;
+}
+.bg-color {
+  /*background-color: #f6f6f6;*/
+}
+.grey-scale {
+  -webkit-filter: grayscale(30%);  /*Safari 6.0 - 9.0 */
+  filter: grayscale(10%);
+
+
+}
+.grey-scale:hover {
+  -webkit-filter: grayscale(0%); /*Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+.nopadding {
+  padding-left: 0;
+  margin: 0;
+}
+.leftpadding {
+  /*padding-left: 10 !important; */
+}
+.picture-container {
+  width: 20%;
+  /*border: 1px solid blue;*/
+  /*float: left;*/
+
+}
+.picture-row {
+  /*border: 1px solid blue;*/
+  width: 100%;
+  height: 10%;
+}
+.group-pic {
+  height: 350px;
+  width: 100vw;
+}
+
+.hvrbox * {
+  box-sizing: border-box;
+}
+.hvrbox {
+  /*border:3px solid pink;*/
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin-top:10px;
+  /*height: auto;*/
+}
+.hvrbox img {
+  max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+  display: block;
+
+}
+.hvrbox .hvrbox-layer_top {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*width: 100%;
+  height: 100%;*/
+  margin: 0;
+  height:100%;
+  width:280px;
+  border-radius: 5px 5px 0 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  /*padding: 15px;*/
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 0 0 5px 5px;
+
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+  opacity: 1;
+
+}
+.hvrbox .hvrbox-text {
+  /*height:500px;*/
+  width:60%;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+  font-size: 15px;
+  border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+  border-top: 1px solid rgba(179, 179, 179, 0.7);
+  margin-top: 5px;
+  padding-top: 2px;
+  display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+  display: block;
+}
+.member-profile {
+  width:280px;
+  background: white;
+  color: #222222;
+  font-size: 25px;
+  line-height: 25px;
+  padding: 20px 0;
+  border-radius: 0 0 5px 5px;
+  text-align: center;
+}
+.member-profile p {
+  padding-top: 10px;
+  padding-left: 18%;
+  font-size: 18px;
+  /*font-weight: 500;*/
+  font-family: 'Josefin Sans', sans-serif;
+  /*font-family: "Effra", Helvetica, sans-serif !important;*/
+}
+.bill {
+  filter: brightness(180%);
+  /*filter: contrast(100%);*/
+}
+a:hover{
+  cursor:pointer;
+}
+row {
+  text-align: left;
+}

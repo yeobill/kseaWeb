@@ -1,0 +1,140 @@
+.about {
+  display: table;
+  position:relative;
+  /*overflow:scroll;*/
+  top:0;
+  margin:auto;
+  /*float:left;*/
+  /*display: none;*/
+  /*top:100%;*/
+  height: 100vh;
+  width: 100%;
+  /*border: 3px solid green;*/
+  background: white;
+  z-index: 99;
+  width: 75%;
+  text-align: justify;
+}
+
+.about-container {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.explanation-font-size {
+    font-size: 20px;
+
+}
+
+.explanation-box{
+	/*border: 1px solid pink;*/
+    text-align: left;
+	position: relative;
+    padding: 50px;
+}
+
+
+#majoranimation{
+	/*display: table-cell;*/
+	/*border: 3px solid purple;*/
+	/*float:left;*/
+	position:relative;
+	/*right:0;*/
+	/*margin: auto;*/
+	/*margin-left: 4%;*/
+	/*width: 50%;*/
+	height:270px;
+	padding-top: 105px;
+}
+#animationcontainer{
+	/*border: 3px solid grey;*/
+	height: 100%;
+	width: 100%;
+	/*right:0;
+	top:0;
+	bottom:0;
+	left:0;*/
+	position:relative;
+	/*float:left;*/
+}
+
+
+.learnmorebutton{
+	border :2px solid black;
+	width:120px;
+	height:28px;
+	font-size: 16px;
+	text-align: center;
+	position:relative;
+	padding-top: 3px;
+	margin-top: 20px;
+
+}
+
+.learnmorebutton:hover{
+	cursor:pointer;
+	background: black;
+	color:white;
+	opacity: 0.8;
+	text-decoration: none;
+	z-index: 99;
+}
+a {
+	color:inherit;
+}
+a:hover {
+	text-decoration: none;
+}
+
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+    #majoranimation{
+        display: none;
+    }
+    .explanation-font-size {
+        font-size: 17px;
+    }
+    .explanation-box{
+        /*border: 1px solid pink;*/
+        margin-top: 50px ;
+        text-align: left;
+        position: relative;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    #project-and-events .explanation-box:last-child{
+        margin-bottom: 50px;
+    }
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px)
+and (max-width : 1000px) {
+/* Styles */
+    #majoranimation{
+        display: none;
+    }
+    .explanation-font-size {
+        font-size: 17px;
+    }
+    .explanation-box{
+        /*border: 1px solid pink;*/
+        margin-top: 50px ;
+        text-align: left;
+        position: relative;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    #project-and-events .explanation-box:last-child{
+        margin-bottom: 50px;
+    }
+}
+
+

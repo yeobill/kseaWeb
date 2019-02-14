@@ -1,0 +1,77 @@
+* {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.committees {
+	position: relative;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+#headpicture {
+	position: relative;
+	background-image: url("../assets/committee/gitworkshop.jpg");
+	background-position: 10% 30%;
+	background-size: cover;
+	height: 480px;
+}
+
+#headtitle {
+	margin-top: 40px;
+}
+
+#committees {
+	margin: auto;
+}
+
+#projectbox {
+	margin: 30px;
+}
+
+.boxtitle {
+	text-align: center;
+	width: auto;
+	margin: auto;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+
+.boxdesc {
+	text-align: left;
+	margin: 0px;
+	font-size: 18px;
+}
+
+#footerdiv {
+	/*display: none;*/
+	position:relative;
+	/*border: 1px solid purple;*/
+	height: 10%;
+	/*margin: auto;*/
+	/*margin-top: 6px;*/
+	bottom:0;
+	overflow:scroll;
+	background-color: transparent;
+	z-index: 99;
+	background-color: #f6f6f6;
+}
+.project-img {
+	width: 400px;
+	height: 250px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.project-content {
+    padding:20px;
+}
+.committee_title {
+    padding: 50px 0px;
+}
+
+.committee_box {
+    padding-bottom: 50px;
+}

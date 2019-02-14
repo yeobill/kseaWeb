@@ -1,0 +1,14 @@
+.login_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  width: 700px;
+  padding: 50px;
+  transform: translate(-50%, -50%);
+}
+
+
+.filler_footer {
+    height: 90vh;
+}
